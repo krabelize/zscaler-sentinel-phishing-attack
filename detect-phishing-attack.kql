@@ -4,7 +4,8 @@ _ASim_WebSession_ZscalerZIAV03()
 | where urlclass == "Advanced Security Risk"
 //Only output unique entries within the last hour
 | distinct User, RequestURL, UrlCategory, DeviceEventClassID, EventOriginalResultDetails, ThreatName ,RuleName, NetworkApplicationProtocol, ThreatRiskLevel, bin(TimeGenerated, 1h)
-//Only generate an alert if 5 or more users clicked on a possible phishing link
+//Only generate an alert if 3 or more users clicked on a possible phishing link
 | summarize Clicks = make_list(User), dcount(User) by RequestURL, UrlCategory, DeviceEventClassID, EventOriginalResultDetails, ThreatName ,RuleName, NetworkApplicationProtocol, ThreatRiskLevel, bin(TimeGenerated, 1h)
 | project TimeGenerated, dcount_User, RequestURL, NetworkApplicationProtocol, DeviceEventClassID, EventOriginalResultDetails, ThreatRiskLevel, UrlCategory, ThreatName, RuleName, Clicks
-| where dcount_User >= 5
+//The amount of users depends on the size of your organization. Increase this number accordingly.
+| where dcount_User >= 3
