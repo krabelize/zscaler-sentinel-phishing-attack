@@ -1,4 +1,4 @@
-# zscaler-sentinel-siem-kql
+# Zscaler Sentinel SIEM Threat Hunting
 Zscaler Zscaler Internet Access (ZIA) Microsoft Sentinel SIEM KQL Threat Hunting
 
 **Possible Phishing Attack detection**
