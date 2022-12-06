@@ -1,7 +1,7 @@
 # Zscaler Zscaler Internet Access (ZIA) Microsoft Sentinel SIEM KQL Threat Hunting for a Phishing Attack
 
 **Possible Phishing Attack detection:**
-This use-case is helpful in case Microsoft Defender for 365 does not detect or quarantine a malicious phishing e-mail. Zscaler can see possible malicious phishing URLs based on website category and other metrics. By leveraging this information and a count of users visiting a flagged URL within one hour, we can identify a possible undetected phishing campaign. 
+This use-case is helpful in case Microsoft Defender for 365 does not detect or quarantine a malicious phishing e-mail. Zscaler can see possible malicious phishing URLs based on website category and other metrics. By leveraging this information and a count of users visiting a flagged URL within a one hour timeframe, we can identify a possible undetected phishing campaign. 
 
 **Example:**
 
