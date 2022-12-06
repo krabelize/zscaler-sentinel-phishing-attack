@@ -3,7 +3,7 @@
 **Possible Phishing Attack detection:**
 This use-case is helpful in case Microsoft Defender for 365 does not detect or quarantine a malicious phishing e-mail. Zscaler can see possible malicious phishing URLs based on website category and other metrics. By leveraging this information and a count of users visiting a flagged URL within a one hour timeframe, we can identify a possible undetected phishing campaign. 
 
-**Example:**
+**Use-case:**
 
 Let's say your organization is a target for a mass or targeted phishing campaign. This means multiple users can receive phishing mail. The picture below is an example malicious phishing e-mail. The "review recent activity" button does not direct you to a Microsoft page but to a malicious website through bit.ly URL shortening services. In this case, Microsoft M365 does not flag or quarantine this malicious mail:
 
