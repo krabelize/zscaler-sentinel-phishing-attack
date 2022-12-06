@@ -21,6 +21,8 @@ GAP: users who clicked on the phishing link on their smartphones or tablets. Fur
 
 Goal: detect phishing campaigns which did not get blocked or detected by Microsoft 365 or Google Workspace.
 
+Read more: https://cryptsus.com/blog/phishing-attack-zscaler-sentinel-siem.html
+
 # License
 Berkeley Software Distribution (BSD)
 
