@@ -17,7 +17,7 @@ KQL query: https://github.com/krabelize/zscaler-sentinel-siem/blob/main/detect-p
 
 GAP: users who clicked on the phishing link on their smartphones or tablets.
 
-Goal: detect phishing campaigns which did not get detected by Microsoft 365 or Google Workspace.
+Goal: detect phishing campaigns which did not get blocked or detected by Microsoft 365 or Google Workspace.
 
 # License
 Berkeley Software Distribution (BSD)
