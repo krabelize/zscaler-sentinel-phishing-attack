@@ -7,9 +7,11 @@ KQL query: https://github.com/krabelize/zscaler-sentinel-siem/blob/main/detect-p
 
 **Example:**
 
+Let's say your organization is a target for a mass or targetted phishing campaign. This means multiple users can receive a phishing mail. The picture below is an example malicious phishing e-mail. The "review recent activity" button does not direct you to a Microsoft page, but to a malicious website through bit.ly URL shortening services. In this case, Microsoft M365 did not flag or quarentine this malicious mail.
+
 ![Example phishing e-mail](https://github.com/krabelize/zscaler-sentinel-siem/blob/main/phishing-mail.png)
 
-In case three or more employees, clicked on the phishing bit.ly link - Zscaler will log this and alert on this:
+Zscaler ZIA is able to keep track of all visited URL's. This way, we can createa a KQL query to keep track of all links which could be a security risk. In this case, when three or more employees clicked on the phishing bit.ly link - Sentinel will create an alert:
 
 ![ZIA phishing Sentinel SIEM](https://github.com/krabelize/zscaler-sentinel-siem/blob/main/zscaler-phishing-siem.jpeg)
 
