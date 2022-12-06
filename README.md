@@ -17,7 +17,7 @@ KQL query: https://github.com/krabelize/zscaler-sentinel-siem/blob/main/detect-p
 
 Next, an incident response investigation can be started by the SOC team, depending on the nature of the attack and possible victims. 
 
-GAP: users who clicked on the phishing link on their smartphones or tablets.
+GAP: users who clicked on the phishing link on their smartphones or tablets. Furthermore, targetted phishing attacks might not fall under the threshhold count within the KQL query. Moreover, newely registered domains, or subdomains and FDQNs of trusted domains are not in queried of this use-case.
 
 Goal: detect phishing campaigns which did not get blocked or detected by Microsoft 365 or Google Workspace.
 
