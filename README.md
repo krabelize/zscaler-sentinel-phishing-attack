@@ -8,7 +8,9 @@ This use-case is useful in case Microsoft Defender for 365 does not detect or qu
 
 ![Example phishing e-mail](https://www.phishing.org/hs-fs/hubfs/ms_tech-support-scam.png)
 
-In case three or more employees, clicked on the phishing bit.ly link - Zscaler will log this and alert on this.
+In case three or more employees, clicked on the phishing bit.ly link - Zscaler will log this and alert on this:
+
+![ZIA phishing Sentinel SIEM](hhttps://github.com/krabelize/zscaler-sentinel-siem/blob/main/zscaler-phishing-siem.JPG)
 
 # License
 Berkeley Software Distribution (BSD)
