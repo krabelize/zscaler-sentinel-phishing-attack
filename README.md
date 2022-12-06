@@ -6,7 +6,7 @@ This use-case is useful in case Microsoft Defender for 365 does not detect or qu
 
 **Example:**
 
-![Example phishing e-mail](https://www.phishing.org/hs-fs/hubfs/ms_tech-support-scam.png)
+![Example phishing e-mail](https://github.com/krabelize/zscaler-sentinel-siem/blob/main/phishing-mail.png)
 
 In case three or more employees, clicked on the phishing bit.ly link - Zscaler will log this and alert on this:
 
