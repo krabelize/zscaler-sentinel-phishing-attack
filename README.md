@@ -5,7 +5,7 @@ This use-case is helpful in case Microsoft Defender for 365 does not detect or q
 
 **Example:**
 
-Let's say your organization is a target for a mass or targeted phishing campaign. This means multiple users can receive phishing mail. The picture below is an example malicious phishing e-mail. The "review recent activity" button does not direct you to a Microsoft page but to a malicious website through bit.ly URL shortening services. In this case, Microsoft M365 does not flag or quarantine this malicious mail.
+Let's say your organization is a target for a mass or targeted phishing campaign. This means multiple users can receive phishing mail. The picture below is an example malicious phishing e-mail. The "review recent activity" button does not direct you to a Microsoft page but to a malicious website through bit.ly URL shortening services. In this case, Microsoft M365 does not flag or quarantine this malicious mail:
 
 ![Example phishing e-mail](https://github.com/krabelize/zscaler-sentinel-siem/blob/main/phishing-mail.png)
 
