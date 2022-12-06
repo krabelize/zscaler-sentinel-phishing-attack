@@ -11,7 +11,7 @@ Let's say your organization is a target for a mass or targetted phishing campaig
 
 ![Example phishing e-mail](https://github.com/krabelize/zscaler-sentinel-siem/blob/main/phishing-mail.png)
 
-Zscaler ZIA is able to keep track of all visited URL's. This way, we can createa a KQL query to keep track of all links which could be a security risk. In this case, when three or more employees clicked on the phishing bit.ly link - Sentinel will create an alert:
+If the Zscaler ZIA endpoint agent is active, it is able to keep track of all visited URL's. This way, we can createa a KQL query to keep track of all links which could be a security risk. In this case, when three or more employees clicked on the phishing bit.ly link - Sentinel will create an alert:
 
 ![ZIA phishing Sentinel SIEM](https://github.com/krabelize/zscaler-sentinel-siem/blob/main/zscaler-phishing-siem.jpeg)
 
